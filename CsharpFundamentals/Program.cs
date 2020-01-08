@@ -11,13 +11,8 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {		
-		var number = new[] {3, 7, 9, 2, 14, 6};
-
-		Array.Reverse(numbers);
-		Console.WriteLine("Effect of Reverse()");
-			
-		foreach (var n in number)
-			Console.WriteLine(n);
+		// creating a list of integers(initialize/store objects)
+		var number = new List<int>() {1, 2, 3, 4};	
         }
     }
 }
