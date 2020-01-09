@@ -14,17 +14,18 @@ namespace HelloWorld
 		var number = new List<int>() {1, 2, 3, 4};
 		numbers.Add(1);
 			
-		foreach (var number in number			
-		{
-			if (number == 1)
-			numbers.Remove(number); // this is modifying the collection
+		for(var i = 0; i < numbers.Count; i++)
+		{	
+		// number[i] because there isn't a local variable called numbers,
+		// so we can access the current element in the list using an index
+				
+			if (number[i] == 1)
+			numbers.Remove(numbers[i]);
+				
+			// removes all elements from the list
+			number.Clear();
+			Console.WriteLine("Count: " + numbers.Count); // 0
 		}
-			
-		foreach (var number in numbers)
-			Console.WriteLine(number);
-		
-		// application cashed - error: unhandled exception,
-		// not allowed to modify the collection inside a foreach loop
 	}
     }
 }
