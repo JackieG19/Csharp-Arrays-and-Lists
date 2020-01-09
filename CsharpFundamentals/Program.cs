@@ -11,17 +11,20 @@ namespace HelloWorld
     {
         static void Main(string[] args)
         {		
-		// creating a list of integers(initialize/store objects)
 		var number = new List<int>() {1, 2, 3, 4};
-		
+		numbers.Add(1);
+			
+		foreach (var number in number			
+		{
+			if (number == 1)
+			numbers.Remove(number); // this is modifying the collection
+		}
+			
 		foreach (var number in numbers)
-			Console.WriteLine(numbper); // 1,2,3,4,1,5,6,7
+			Console.WriteLine(number);
 		
-		Console.WriteLine(); // separate from the console above
-		
-		numbers.Remove(1); // removes an int/char/str from the specified position of a list/array
-		foreach (var number in numbers)
-			Console.WriteLine(number); // 2,3,4,1,5,6,7
-        }
+		// application cashed - error: unhandled exception,
+		// not allowed to modify the collection inside a foreach loop
+	}
     }
 }
