@@ -12,13 +12,10 @@ namespace HelloWorld
         static void Main(string[] args)
         {		
 		var number = new[] {3, 7, 9, 2, 14, 6};
+		Array.Sort(number);
 		
-		// Clear() method
-		Array.Clear(numbers, 0, 2);
-		// (array, starting index of the range of elements)
-			
-		Console.WriteLine("Effect of Clear()");
-			
+		Console.WriteLine("Effect of Sort()");
+		
 		foreach (var n in number)
 			Console.WriteLine(n);
         }
