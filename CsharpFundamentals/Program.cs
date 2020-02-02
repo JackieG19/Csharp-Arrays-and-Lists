@@ -12,12 +12,11 @@ namespace HelloWorld
         static void Main(string[] args)
         {		
 		var number = new[] {3, 7, 9, 2, 14, 6};
-		
-		int[] another = new int[3];  
-		Array.Copy(numbers, another, 3);
+
+		Array.Reverse(numbers);
+		Console.WriteLine("Effect of Reverse()");
 			
-		Console.WriteLine("Effect of Copy()");
-		foreach (var n in another)
+		foreach (var n in number)
 			Console.WriteLine(n);
         }
     }
