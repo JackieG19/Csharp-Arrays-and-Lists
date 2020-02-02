@@ -37,6 +37,7 @@ array[2] = new int[3];
 array[0][0] =1;
 ```
 ___
+
 ## Lists
 
 **Arrays vs Lists**
@@ -59,4 +60,4 @@ var numbers = new List<int>(){1, 2, 3, 4};
 - Count`
 ___
 
-Next -> [Working with Dates]()
+Next -> [Date and Time](https://github.com/JackieG19/Csharp-Date-and-Time)
