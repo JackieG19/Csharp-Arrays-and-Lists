@@ -37,4 +37,27 @@ array[2] = new int[3];
 array[0][0] =1;
 ```
 ___
+
+## Lists
+
+**Arrays vs Lists**
+- Array: fixed size
+- List: dynamic size
+
+**Creating Lists**
+```
+var numbers = new List<int>();
+var numbers = new List<int>(){1, 2, 3, 4};
+```
+
+**Useful Method**
+- Add()
+- AddRange()
+- Remove()
+- RemoveAt()
+- IndexOf()
+- Contains()
+- Count`
+___
+
 Next -> [Date and Time](https://github.com/JackieG19/Csharp-Date-and-Time)
