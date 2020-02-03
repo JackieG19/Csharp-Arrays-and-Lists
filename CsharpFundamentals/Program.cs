@@ -14,9 +14,9 @@ namespace HelloWorld
 		// creating a list of integers(initialize/store objects)
 		var number = new List<int>() {1, 2, 3, 4};
 		
-		// adding the 1 object to the list
-		numbers.Add(1); 
-
+		// add more than 1 object to the list
+		numbers.AddRange(new int[3] {5, 6, 7});
+		//(creating an new int array [the size of 3] {initialize this array})
         }
     }
 }
