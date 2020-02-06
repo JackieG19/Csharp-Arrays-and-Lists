@@ -19,8 +19,8 @@ namespace HelloWorld
 		
 		Console.WriteLine(); // separate from the console above
 			
-		// start your search from the beginning of the list
-		Console.WriteLine("Index of 1: " + numbers.IndexOf(1)); // 0
+		// start your search at end of the list
+		Console.WriteLine("Last Index of 1: " + numbers.LastIndexOf(1)); // 4
         }
     }
 }
