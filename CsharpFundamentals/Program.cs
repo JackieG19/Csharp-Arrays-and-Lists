@@ -16,6 +16,11 @@ namespace HelloWorld
 		
 		foreach (var number in numbers)
 			Console.WriteLine(numbper); // 1,2,3,4,1,5,6,7
+		
+		Console.WriteLine(); // separate from the console above
+			
+		// start your search from the beginning of the list
+		Console.WriteLine("Index of 1: " + numbers.IndexOf(1)); // 0
         }
     }
 }
