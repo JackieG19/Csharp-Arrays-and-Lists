@@ -19,8 +19,9 @@ namespace HelloWorld
 		
 		Console.WriteLine(); // separate from the console above
 		
-		// count returns the number of objects in your list
-		Console.WriteLine("Count: " + numbers.Count); // 8 objects in the list
+		numbers.Remove(1); // removes an int/char/str from the specified position of a list/array
+		foreach (var number in numbers)
+			Console.WriteLine(number); // 2,3,4,1,5,6,7
         }
     }
 }
